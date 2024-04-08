@@ -1,0 +1,27 @@
+@import url(./base.css);
+
+
+
+
+.edit-profile{}
+.edit-profile .left-list{}
+.edit-profile .left-list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.edit-profile .left-list ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 19px;
+}
+.edit-profile .left-list ul li span{
+}
+.edit-profile .left-list ul li span img{height: 24px;}
+.edit-profile .left-list ul li p{}
+.edit-profile .left-list .line{background: var(--site-box);height: 1px;width: 24%;}
+.edit-profile .left-list .delete{}
+.edit-profile .left-list .delete span{}
+.edit-profile .left-list .delete span img{}
+.edit-profile .left-list .delete p{}
