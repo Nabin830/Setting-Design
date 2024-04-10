@@ -1,27 +1,89 @@
 @import url(./base.css);
 
+*{
+ margin: 0px;
+ padding: 0px;
+    box-sizing: border-box;
+}
 
+.user{}
+.user .frist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 152px;
+}
 
-
-.edit-profile{}
-.edit-profile .left-list{}
-.edit-profile .left-list ul{
+.user .frist .left-list{}
+.user .frist .left-list ul{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 32px;
 }
-.edit-profile .left-list ul li{
+.user .frist .left-list ul li{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 19px;
 }
-.edit-profile .left-list ul li span{
+.user .frist.left-list ul li span{
 }
-.edit-profile .left-list ul li span img{height: 24px;}
-.edit-profile .left-list ul li p{}
-.edit-profile .left-list .line{background: var(--site-box);height: 1px;width: 24%;}
-.edit-profile .left-list .delete{}
-.edit-profile .left-list .delete span{}
-.edit-profile .left-list .delete span img{}
-.edit-profile .left-list .delete p{}
+.user .frist .left-list ul li span img{height: 24px;}
+.user .frist .left-list ul li p{}
+.user .frist .left-list .line{background: var(--site-box);height: 1px;width: 169%;/* margin-left: 41px; */margin-top: 25px;margin-bottom: 20px;}
+.user .frist .left-list .delete{
+    /* margin-left: 37px; */
+    /* margin-top: 37px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+.user .frist .left-list .delete span{}
+.user .frist .left-list .delete span img{}
+.user .frist .left-list .delete p{
+    color: red;
+}å
+
+.right{}
+.right h1{
+    font-size: 31px;
+}
+.right p{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 14px;
+    margin-top: 45px;
+}
+.right .imgup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+.right .imgup .profile{}
+.right .imgup .profile img{
+    height: 140px;
+    width: 140px;
+    border-radius: 248px;
+}
+.right .imgup .upload{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.right .imgup .upload button{
+    background: transparent;
+    border: 1px solid var(--site-box);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 34px;
+    border-radius: 14px;
+    width: 228px;
+}
+.right .imgup .upload p{
+    margin: 0px;
+    width: 45%;
+    color: var(--site-soft-grey);
+}
